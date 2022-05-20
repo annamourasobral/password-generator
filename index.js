@@ -31,3 +31,27 @@ function generate() {
     document.getElementById("password3").value = password3;
     document.getElementById("password4").value = password4;
 }
+
+function copy1() {
+    var copyText1 = document.getElementById("password1");
+    copyText1.select();
+    document.execCommand("copy");  
+}
+
+function copy2() {
+    var copyText2 = document.getElementById("password2");
+    copyText2.select();
+    document.execCommand("copy");  
+}
+
+function copy3() {
+    var copyText3 = document.getElementById("password3");
+    copyText3.select();
+    document.execCommand("copy");  
+}
+
+function copy4() {
+    var copyText4 = document.getElementById("password4");
+    copyText4.select();
+    document.execCommand("copy");  
+}
