@@ -1,8 +1,12 @@
+# Password generator
+This a project in 'Making Websites interactive module' of [Frontend Career Path](https://github.com/annamourasobral/Frontend-Career-Path) from [Scrimba](https://scrimba.com)
+
 Requirements:
-- Array to hold all possible chars
-- Button to generate 4 random password options
-- Display password options
+- [x]Array to hold all possible chars
+- [x]Button to generate 4 random password options
+- [x]Display password options
 
 Strech:
 - Ability to set the password length
-- 1-click copy password to the clipboard
+- [x]1-click copy password to the clipboard
+
